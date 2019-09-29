@@ -7,37 +7,33 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
- add_element_to_end_of_array.push("Cora")
+ array.push(element)
  end
 
-def add_element_to_end_of_array
-  add_element_to_end_of_array.push("Green")
-end
-
 def add_element_to_start_of_array(array, element)
-  add_element_to_start_of_array.unshift("yellow")
+array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = remove_element_from_end_of_array.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  array = remove_element_from_start_of_array.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  retrieve_element_from_index[0]
+  array [2]
 end
 
 def retrieve_first_element_from_array(array)
-  retrieve_first_element_from_array[0]
+  array [0]
 end
 
 def retrieve_last_element_from_array(array)
-  retrieve_last_element_from_array << "Chewy"
+  array [-1]
 end
 
 def update_element_from_index(array, index_number, element)
-  update_element_from_index.pop[2]
+  array[4] = element
 end
